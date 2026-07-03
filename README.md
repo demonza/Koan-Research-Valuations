@@ -1,8 +1,5 @@
 # Gama Research — DCF Workstation
 
-> *Rotas longas, retornos compostos.*
-> Named for Vasco da Gama, born in Sines: voyages measured in years, not days — provisioned carefully, navigated patiently, and judged only at the destination. The way capital should compound.
-
 Three-stage DCF · reverse DCF · Monte Carlo · scenario weighting · **live quotes** · **Supabase-persisted state**.
 
 Same engine and interface as the static v2, now served by a small Express app that does the two things a static file can't:
