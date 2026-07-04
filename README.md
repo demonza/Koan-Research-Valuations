@@ -1,4 +1,4 @@
-# Gama Research — DCF Workstation
+# Koan Research & Valuations — DCF Workstation
 
 Three-stage DCF · reverse DCF · Monte Carlo · scenario weighting · **live quotes** · **Supabase-persisted state**.
 
