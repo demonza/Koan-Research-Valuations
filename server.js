@@ -12,7 +12,7 @@ app.use(express.json({ limit: "1mb" }));
 app.use(express.static(path.join(__dirname, "public")));
 
 /* ---------------- optional single-user auth ---------------- */
-const KEY = process.env.WORKSTATION_KEY || "";
+const KEY = "";
 function auth(req, res, next) {
   if (!KEY) return next(); // no key configured → open (fine for local dev)
   if (req.get("x-workstation-key") === KEY) return next();
